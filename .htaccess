@@ -1,0 +1,3 @@
+# Deny all requests to the /database/ directory
+RewriteEngine On
+RewriteRule ^database/.* - [F,L]

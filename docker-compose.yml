@@ -1,0 +1,7 @@
+services:
+  rite:
+    build: .
+    container_name: rite
+    restart: unless-stopped
+    ports:
+      - "8080:80"
